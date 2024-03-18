@@ -30,5 +30,5 @@ if keyboard_check_pressed(vk_space){
 // muda o angulo do sprite para ser igual a direção
 image_angle = direction;
 // Teleporta a nave para o outro lado se ela sair dos limetes da cena
-move_wrap(true, true, 0)
+move_wrap(true, true, 0);
 

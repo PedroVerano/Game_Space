@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 //Distroe o objeto ao sair da cena;
-if y<=0 y >= room_height {
+if y<=0 || y >= room_height {
 	instance_destroy()
 }
 
