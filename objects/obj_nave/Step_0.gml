@@ -34,3 +34,20 @@ image_angle = direction;
 // Teleporta a nave para o outro lado se ela sair dos limetes da cena
 move_wrap(true, true, 0);
 
+if alarm[0] > 0{
+	if image_alpha <= 0 {
+		alfa_add = 0.05;
+	} else if image_alpha >= 1{
+		alfa_add= -0.05;
+	}
+	
+	image_alpha += alfa_add;
+	
+}else {
+	image_alpha = 1;
+}
+
+if vida <= 0 {
+	game_restart();
+}
+

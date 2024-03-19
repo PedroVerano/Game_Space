@@ -1,8 +1,12 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-veloc = 2;
-direc = 3;
 
-vida = 4;
+if alarm[0] <= 0 {     
+vida-=1;
 
-alfa_add = 0;
+with(other){
+	vida-=1;
+}
+
+alarm[0] = 180;
+}
