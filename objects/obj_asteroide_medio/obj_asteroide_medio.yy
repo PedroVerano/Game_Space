@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_projetil",
+  "%Name":"obj_asteroide_medio",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"parente_asteroide","path":"objects/parente_asteroide/parente_asteroide.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_projetil",
+  "name":"obj_asteroide_medio",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"parente_asteroide",
+    "path":"objects/parente_asteroide/parente_asteroide.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_projetil",
-    "path":"sprites/spr_projetil/spr_projetil.yy",
+    "name":"spr_asteroide_medio",
+    "path":"sprites/spr_asteroide_medio/spr_asteroide_medio.yy",
   },
   "spriteMaskId":null,
   "visible":true,
