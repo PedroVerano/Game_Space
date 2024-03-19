@@ -1,12 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-veloc = 2;
-direc = 3;
+draw_self();
 
-vida = 4;
-
-alfa_add = 0;
-
-escudo = false;
-
-dano_nave = 1;
+if escudo == true {
+	draw_sprite(spr_escudo, 0, x, y);
+}

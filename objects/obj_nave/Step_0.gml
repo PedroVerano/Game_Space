@@ -25,6 +25,7 @@ if keyboard_check_pressed(vk_space){
 	_inst.speed = 6;
 	_inst.direction = direction;
 	_inst.image_angle = direction;
+	_inst.dano = dano_nave;
 }
 
 

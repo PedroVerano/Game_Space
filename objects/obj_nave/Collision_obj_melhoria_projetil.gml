@@ -1,12 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-veloc = 2;
-direc = 3;
+alarm[2] = 300; // 5 segundos
 
-vida = 4;
+dano_nave = 2;
 
-alfa_add = 0;
-
-escudo = false;
-
-dano_nave = 1;
+with(other) {
+	instance_destroy();
+}

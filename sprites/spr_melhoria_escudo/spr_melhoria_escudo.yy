@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_projetil_melhoria",
+  "%Name":"spr_melhoria_escudo",
   "bboxMode":0,
   "bbox_bottom":35,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"32b2e3b0-ef87-428b-afbf-4e468ba7bdf3","name":"32b2e3b0-ef87-428b-afbf-4e468ba7bdf3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"8da2c3e2-f0af-4e4b-a51b-f0209adb19ed","name":"8da2c3e2-f0af-4e4b-a51b-f0209adb19ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":36,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"84fb28d2-e975-4154-bdae-bdf3b7f20bdb","blendMode":0,"displayName":"default","isLocked":false,"name":"84fb28d2-e975-4154-bdae-bdf3b7f20bdb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"805c5030-e526-4939-ad82-63602f820656","blendMode":0,"displayName":"default","isLocked":false,"name":"805c5030-e526-4939-ad82-63602f820656","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_projetil_melhoria",
+  "name":"spr_melhoria_escudo",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_projetil_melhoria",
+    "%Name":"spr_melhoria_escudo",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_projetil_melhoria",
+    "name":"spr_melhoria_escudo",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"32b2e3b0-ef87-428b-afbf-4e468ba7bdf3","path":"sprites/spr_projetil_melhoria/spr_projetil_melhoria.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b0ba34c1-fa66-4d11-b441-0fec7709642a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8da2c3e2-f0af-4e4b-a51b-f0209adb19ed","path":"sprites/spr_melhoria_escudo/spr_melhoria_escudo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dca1ce96-e749-45c2-abbc-5e435ea5d5d9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
