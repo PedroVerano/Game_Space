@@ -1,17 +1,17 @@
 {
   "$GMRoom":"",
-  "%Name":"Room1",
+  "%Name":"rm_jogo",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_58C193E6","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_1CED2C43","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_480C7AD","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_930B518","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_7ADCC126","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_3D60DA2","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_58C193E6","path":"rooms/rm_jogo/rm_jogo.yy",},
+    {"name":"inst_1CED2C43","path":"rooms/rm_jogo/rm_jogo.yy",},
+    {"name":"inst_480C7AD","path":"rooms/rm_jogo/rm_jogo.yy",},
+    {"name":"inst_930B518","path":"rooms/rm_jogo/rm_jogo.yy",},
+    {"name":"inst_7ADCC126","path":"rooms/rm_jogo/rm_jogo.yy",},
+    {"name":"inst_3D60DA2","path":"rooms/rm_jogo/rm_jogo.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -38,7 +38,7 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_estrelas","path":"tilesets/ts_estrelas/ts_estrelas.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Room1",
+  "name":"rm_jogo",
   "parent":{
     "name":"Cenas",
     "path":"folders/Cenas.yy",
