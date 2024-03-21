@@ -1,12 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-move_wrap(true,true,0)
-
 image_angle += rotac;
 
-if vida <=0 {
-	repeat(7){
-	instance_create_layer(x,y,"Instances",obj_detritos);
-	}
+image_alpha -= 0.02;
+
+if image_alpha <=0 {
 	instance_destroy();
 }
