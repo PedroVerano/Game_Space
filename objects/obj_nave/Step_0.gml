@@ -9,7 +9,7 @@ if keyboard_check(vk_up){
 	speed = -veloc;
 } else {
 	sprite_index = spr_nave_parada;
-	speed = lerp(speed,0,0.05);
+	speed = lerp(speed,0,0.02);
 }
 if keyboard_check(vk_left){
 	direc = 3;
