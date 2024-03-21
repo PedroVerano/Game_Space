@@ -21,6 +21,7 @@ if keyboard_check(vk_left){
 
 if keyboard_check_pressed(vk_space){
 	// cria o projetil
+	audio_play_sound(snd_projetil, 1, false);
 	var _inst =  instance_create_layer(x,y,"Instances",obj_projetil);
 	_inst.speed = 6;
 	_inst.direction = direction;
