@@ -53,3 +53,8 @@ if vida <= 0 {
 	game_restart();
 }
 
+// se a pontuação chegar a 100 ele vai para a cena final
+if global.pont >= 1000 {
+room_goto(rm_final);
+}
+
