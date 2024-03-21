@@ -3,3 +3,5 @@
 alarm[0] = 600;
 
 global.pont = 0;
+
+alpha = 0;

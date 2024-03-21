@@ -45,8 +45,9 @@
     {"id":{"name":"obj_nave","path":"objects/obj_nave/obj_nave.yy",},},
     {"id":{"name":"obj_projetil","path":"objects/obj_projetil/obj_projetil.yy",},},
     {"id":{"name":"parente_asteroide","path":"objects/parente_asteroide/parente_asteroide.yy",},},
-    {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"id":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},},
+    {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
+    {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"snd_esplosao_asteroide","path":"sounds/snd_esplosao_asteroide/snd_esplosao_asteroide.yy",},},
     {"id":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},},
     {"id":{"name":"snd_melhoria","path":"sounds/snd_melhoria/snd_melhoria.yy",},},
@@ -67,6 +68,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"roomId":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},},
   ],
