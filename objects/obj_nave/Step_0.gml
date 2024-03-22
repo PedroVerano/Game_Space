@@ -1,19 +1,19 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-if keyboard_check(vk_up){
+if keyboard_check(ord("W")){
 	//Troca o sprite quando apertar a tecla
 	sprite_index = spr_nave_andando;
 	speed = veloc;
-} else if keyboard_check(vk_down){
+} else if keyboard_check(ord("S")){
 	sprite_index = spr_nave_andando;
 	speed = -veloc;
 } else {
 	sprite_index = spr_nave_parada;
 	speed = lerp(speed,0,0.02);
 }
-if keyboard_check(vk_left){
+if keyboard_check(ord("A")){
 	direc = 3;
-} else if keyboard_check(vk_right){
+} else if keyboard_check(ord("D")){
 	direc = -3;
 } else {
 	direc = lerp(direc, 0, 0.08);
